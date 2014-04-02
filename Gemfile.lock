@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    memcached (1.7.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  memcached
