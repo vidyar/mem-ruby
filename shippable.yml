@@ -2,6 +2,8 @@ language: ruby
 rvm: 2.1.1
 
 services: memcached
-
+before_install:
+  - \curl -L https://get.rvm.io | bash
+  - rvm reload
 
 script: ruby sample.rb
