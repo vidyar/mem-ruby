@@ -1,5 +1,7 @@
 language: ruby
-rvm: 2.1.1
+rvm:
+  - 2.1.1
+  - 2.1.2
 
 services: memcached
 before_install:
