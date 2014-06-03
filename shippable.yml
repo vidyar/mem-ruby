@@ -3,4 +3,5 @@ rvm: 2.1.1
 
 services: memcached
 
+
 script: ruby sample.rb
